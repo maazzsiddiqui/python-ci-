@@ -11,6 +11,8 @@ dependencies = [
     "urllib3==2.6.3",
     # security: pinned transitive dep of streamlitdefew
     "tornado==6.5.7",
+    # security: pinned transitive dep of altair
+    "jinja2==3.1.6",
 ]
 
 [build-system]
