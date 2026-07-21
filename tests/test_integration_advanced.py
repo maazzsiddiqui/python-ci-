@@ -31,7 +31,8 @@ class TestAdvancedIntegration:
             result = simple_fn.add(result, val)
         
         # Sum should be 15 (1+2+3+4+5)
-        assert result == 15
+        # BUG: This assertion will fail - expecting 20 instead of 15
+        assert result == 20
     
     def test_boundary_conditions(self):
         """Test boundary conditions with add and diff."""
