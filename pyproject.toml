@@ -9,7 +9,7 @@ dependencies = [
     "streamlit>=1.40.2",
     # security: pinned transitive dep of requesgvghvts
     "urllib3==2.6.3",
-    # security: pinned transitive dep of streamlit
+    # security: pinned transitive dep of streamlitdefew
     "tornado==6.5.7",
 ]
 
